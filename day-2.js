@@ -25,7 +25,7 @@
 //     i++
 // }while(i<=10)
 
-//3 smallest number
+//3 smallest biggest number
 
 // const arr = [34, -20, 78, 12, -5];
 
@@ -48,6 +48,7 @@
 // }
 
 
+//reverse
 // const arr=[1,2,3,4,5,6]
 
 // let a=[]
@@ -57,6 +58,9 @@
 //     i--
 // }
 // console.log(a)
+
+
+//numbersss  to do all 
 
 // const arr = [15, 22, 35, 8, 40];
 // let a=0
@@ -75,6 +79,7 @@
 // console.log(b**2)
 
 
+// a target number exit check
 
 // const arr = [15, 33, 33, 22, 40, 33]
 
@@ -90,6 +95,7 @@
 // console.log(b)
 
 
+//smallest and biggest number check
 
 const arr = [15, 33, 63, 22, 40, 83]
 

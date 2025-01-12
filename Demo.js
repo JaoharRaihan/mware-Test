@@ -14,7 +14,6 @@ function removeItem(name){
         console.log(`${name} Not Found`)
     }
 }
-
 function updateQuantity(name,newquantity,newPrice){
     let item =inventory.find(item=>item.name===name)
     if(item){

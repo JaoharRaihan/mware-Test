@@ -190,3 +190,5 @@ let person={
 for(const a in person){
     console.log(`${a},${person[a]}`)
 }
+
+break label

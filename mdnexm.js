@@ -181,10 +181,3 @@
 // console.log(result); // 421
 
 
-
-let age = Number(document.getElementById("age").value);
-if (!isNaN(age)) {
-    console.log("Valid age:", age);
-} else {
-    console.log("Invalid age.");
-}
