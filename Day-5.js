@@ -62,25 +62,53 @@
 
 
 
-let p5=new Promise((resolve,reject)=>{
-    console.log("You will see a gretest cricketer name after 5 second")
+// let p5=new Promise((resolve,reject)=>{
+//     console.log("You will see a gretest cricketer name after 5 second")
+//     setTimeout(() => {
+//         console.log("Shakib All Hasan")
+//         resolve(true)
+//     }, 3000);
+// })
+// p5.then((value)=>{
+//     console.log("Is it True or False",value)
+// })
+
+
+// let p6=new Promise((resolve,reject)=>{
+//     console.log("We see the greatest footballer name agter 7 second");
+//     setTimeout(() => {
+//         console.log("Messi");
+//         reject(true)
+//     }, 7000);
+// })
+// p6.catch((error)=>{
+//     console.log("It's 100%",error);
+// })
+
+
+
+// let p7=new Promise((resolve,reject)=>{
+//     console.log("Very soon we saw our playing 11");
+//     setTimeout(() => {
+//         console.log("Tazid,Emon,Shanto,Hridoy,Mushfiqur,Mahmudullah,Rishad,Nasum,Taskin,Nahid,Shariful")
+//         resolve("Yes It's Right?")
+//     }, 5000);
+// })
+// p7.then((Value)=>{
+//     console.log("Is It Right?",Value)
+// })
+
+
+
+let p8=new Promise((resolve,reject)=>{
+    console.log("You will see something after 5 second");
     setTimeout(() => {
-        console.log("Shakib All Hasan")
-        resolve(true)
-    }, 3000);
+        console.log("SOMETHING");
+        reject("Yes,It's shows error sometimes")
+    }, 5000);
 })
-p5.then((value)=>{
-    console.log("Is it True or False",value)
+p8.catch((error)=>{
+    console.log("Is it sometimes show error?",error)
 })
 
 
-let p6=new Promise((resolve,reject)=>{
-    console.log("We see the greatest footballer name agter 7 second");
-    setTimeout(() => {
-        console.log("Messi");
-        reject(true)
-    }, 7000);
-})
-p6.catch((error)=>{
-    console.log("It's 100%",error);
-})
